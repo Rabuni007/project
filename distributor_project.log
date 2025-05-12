@@ -134,3 +134,5 @@ WARNING 2025-05-12 21:17:31,569 log 11464 8108 Unauthorized: /api/distributors/
 WARNING 2025-05-12 21:17:31,580 basehttp 11464 8108 "GET /api/distributors/ HTTP/1.1" 401 5337
 WARNING 2025-05-12 21:17:41,013 log 11464 10416 Not Found: /api/
 WARNING 2025-05-12 21:17:41,041 basehttp 11464 10416 "GET /api/ HTTP/1.1" 404 4518
+WARNING 2025-05-12 21:32:12,686 log 11464 8680 Unauthorized: /api/distributors/
+WARNING 2025-05-12 21:32:12,733 basehttp 11464 8680 "GET /api/distributors/ HTTP/1.1" 401 5337
