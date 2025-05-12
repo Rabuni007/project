@@ -78,9 +78,13 @@ WSGI_APPLICATION = 'distributor_project.wsgi.application'
 
 DATABASES = {
     'default': {
+
+    
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
+    }
     }# No code was selected, so we will add a new section to the settings file to improve it.
+
 
 # Logging Configuration
 LOGGING = {
@@ -115,7 +119,7 @@ LOGGING = {
         },
     },
 }
-}
+
 
 
 # Password validation

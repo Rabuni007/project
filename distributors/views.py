@@ -1,6 +1,7 @@
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated
+from .permissions import IsAdmin, IsManager, IsUser, IsAdminOrManager
 from rest_framework.response import Response
 from django.contrib.auth.models import User
 from rest_framework import status
@@ -15,7 +16,7 @@ from . import sap_integration
 
 
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+@permission_classes([IsAdminOrManager])
 def distributor_list_create(request):
     if request.method == 'GET':
         distributors = Distributor.objects.all()
@@ -30,7 +31,7 @@ def distributor_list_create(request):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET', 'PUT'])
-@permission_classes([IsAuthenticated])
+@permission_classes([IsAdminOrManager])
 def distributor_retrieve_update(request, pk):
     try:
         distributor = Distributor.objects.get(pk=pk)
@@ -49,7 +50,7 @@ def distributor_retrieve_update(request, pk):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+@permission_classes([IsAdminOrManager])
 def payment_list_create(request):
     if request.method == 'GET':
         payments = PaymentRecord.objects.all()
@@ -64,7 +65,7 @@ def payment_list_create(request):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET', 'PUT'])
-@permission_classes([IsAuthenticated])
+@permission_classes([IsAdminOrManager])
 def payment_retrieve(request, pk):
     try:
         payment = PaymentRecord.objects.get(pk=pk)
@@ -85,7 +86,7 @@ def payment_retrieve(request, pk):
 from .cashfree_integration import confirm_payment_cashfree
 
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+@permission_classes([IsAdminOrManager])
 def payment_confirm(request, pk):
     try:
         payment = PaymentRecord.objects.get(pk=pk)

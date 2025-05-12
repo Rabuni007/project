@@ -1,0 +1,138 @@
+INFO 2025-05-12 18:59:02,841 autoreload 6768 10636 Watching for file changes with StatReloader
+INFO 2025-05-12 19:02:48,221 autoreload 13904 1636 Watching for file changes with StatReloader
+INFO 2025-05-12 19:10:52,091 autoreload 13904 1636 C:\Users\Lenovo\AppData\Roaming\Python\Python313\site-packages\rest_framework\schemas\generators.py changed, reloading.
+INFO 2025-05-12 19:11:06,647 autoreload 10920 7200 Watching for file changes with StatReloader
+INFO 2025-05-12 19:14:33,131 autoreload 1680 11820 Watching for file changes with StatReloader
+WARNING 2025-05-12 19:16:06,000 log 1680 11348 Not Found: /
+WARNING 2025-05-12 19:16:06,003 basehttp 1680 11348 "GET / HTTP/1.1" 404 2679
+WARNING 2025-05-12 19:16:10,309 log 1680 11348 Not Found: /favicon.ico
+WARNING 2025-05-12 19:16:10,311 basehttp 1680 11348 "GET /favicon.ico HTTP/1.1" 404 2730
+WARNING 2025-05-12 19:16:16,547 log 1680 10408 Not Found: /api/distributors/onboard/
+WARNING 2025-05-12 19:16:16,549 basehttp 1680 10408 "GET /api/distributors/onboard/ HTTP/1.1" 404 4581
+WARNING 2025-05-12 19:16:20,741 log 1680 9268 Not Found: /api/
+WARNING 2025-05-12 19:16:20,751 basehttp 1680 9268 "GET /api/ HTTP/1.1" 404 4518
+WARNING 2025-05-12 19:16:32,950 log 1680 5560 Not Found: /api/distributors/onboard/
+WARNING 2025-05-12 19:16:32,992 basehttp 1680 5560 "GET /api/distributors/onboard/ HTTP/1.1" 404 4581
+WARNING 2025-05-12 19:16:45,476 log 1680 9712 Unauthorized: /api/distributors/
+WARNING 2025-05-12 19:16:45,479 basehttp 1680 9712 "GET /api/distributors/ HTTP/1.1" 401 5337
+INFO 2025-05-12 19:16:51,685 basehttp 1680 9680 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-05-12 19:16:52,183 basehttp 1680 9680 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-05-12 19:16:52,353 basehttp 1680 10672 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-05-12 19:16:52,917 basehttp 1680 10672 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-05-12 19:16:53,063 basehttp 1680 9680 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-05-12 19:16:55,111 basehttp 1680 10672 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-05-12 19:16:55,129 basehttp 1680 11584 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-05-12 19:16:55,133 basehttp 1680 9208 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-05-12 19:16:55,316 basehttp 1680 11516 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-05-12 19:16:56,019 basehttp 1680 10672 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-05-12 19:16:56,123 basehttp 1680 9712 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-05-12 19:16:57,254 basehttp 1680 9680 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+WARNING 2025-05-12 19:36:40,506 log 1680 6608 Unauthorized: /api/distributors/
+WARNING 2025-05-12 19:36:40,510 basehttp 1680 6608 "GET /api/distributors/ HTTP/1.1" 401 5337
+WARNING 2025-05-12 20:08:52,110 log 1680 6260 Unauthorized: /api/distributors/
+WARNING 2025-05-12 20:08:52,583 basehttp 1680 6260 "GET /api/distributors/ HTTP/1.1" 401 5337
+INFO 2025-05-12 20:53:45,513 autoreload 1680 11820 C:\Users\Lenovo\Desktop\rabuni\rabuni\distributors\models.py changed, reloading.
+INFO 2025-05-12 20:54:53,472 autoreload 8312 10232 Watching for file changes with StatReloader
+INFO 2025-05-12 20:57:41,345 autoreload 4812 12220 Watching for file changes with StatReloader
+WARNING 2025-05-12 20:58:24,994 log 4812 9400 Not Found: /
+WARNING 2025-05-12 20:58:25,413 basehttp 4812 9400 "GET / HTTP/1.1" 404 2679
+WARNING 2025-05-12 20:59:01,066 log 4812 1792 Unauthorized: /api/distributors/
+WARNING 2025-05-12 20:59:01,079 basehttp 4812 1792 "GET /api/distributors/ HTTP/1.1" 401 5337
+INFO 2025-05-12 20:59:02,077 basehttp 4812 1792 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,082 basehttp 4812 6860 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,162 basehttp 4812 1792 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,164 basehttp 4812 6860 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,185 basehttp 4812 11588 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,286 basehttp 4812 7876 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,295 basehttp 4812 11588 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,301 basehttp 4812 1792 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,334 basehttp 4812 6860 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,362 basehttp 4812 4024 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,429 basehttp 4812 4264 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-12 20:59:02,530 basehttp 4812 4264 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2025-05-12 20:59:06,961 log 4812 4264 Not Found: /api/
+WARNING 2025-05-12 20:59:06,967 basehttp 4812 4264 "GET /api/ HTTP/1.1" 404 4518
+INFO 2025-05-12 21:09:14,682 autoreload 4812 12220 C:\Users\Lenovo\Desktop\rabuni\rabuni\distributors\admin.py changed, reloading.
+INFO 2025-05-12 21:09:29,762 autoreload 1460 12088 Watching for file changes with StatReloader
+INFO 2025-05-12 21:10:44,857 autoreload 11464 8168 Watching for file changes with StatReloader
+INFO 2025-05-12 21:11:14,540 basehttp 11464 6680 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-12 21:11:25,636 basehttp 11464 8300 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2025-05-12 21:11:28,075 basehttp 11464 13000 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-05-12 21:11:28,076 basehttp 11464 8300 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-05-12 21:11:28,078 basehttp 11464 2816 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-05-12 21:11:28,079 basehttp 11464 11924 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-05-12 21:11:28,328 basehttp 11464 6240 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-05-12 21:11:30,608 basehttp 11464 6240 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-05-12 21:11:30,614 basehttp 11464 11940 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-05-12 21:11:42,267 basehttp 11464 1680 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-12 21:11:42,664 basehttp 11464 1680 "GET /admin/ HTTP/1.1" 200 7247
+INFO 2025-05-12 21:11:43,206 basehttp 11464 1680 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-05-12 21:11:43,314 basehttp 11464 308 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-12 21:11:43,322 basehttp 11464 3244 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-12 21:11:56,374 basehttp 11464 1792 "GET /admin/auth/user/add/ HTTP/1.1" 200 12952
+INFO 2025-05-12 21:11:57,344 basehttp 11464 10368 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-12 21:11:57,491 basehttp 11464 1792 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-05-12 21:11:57,520 basehttp 11464 10368 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-05-12 21:11:58,321 basehttp 11464 10568 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-05-12 21:11:58,440 basehttp 11464 1792 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-12 21:11:58,608 basehttp 11464 10568 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-12 21:11:58,647 basehttp 11464 10368 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+INFO 2025-05-12 21:11:58,929 basehttp 11464 3980 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-05-12 21:11:58,929 basehttp 11464 1792 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-12 21:11:59,123 basehttp 11464 10368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:11:59,124 basehttp 11464 6988 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-05-12 21:12:01,031 basehttp 11464 4024 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-05-12 21:12:01,463 basehttp 11464 10568 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-05-12 21:12:01,549 basehttp 11464 4024 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-12 21:12:02,011 basehttp 11464 10568 "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-05-12 21:12:35,580 basehttp 11464 11936 "GET /admin/distributors/userprofile/add/ HTTP/1.1" 200 11109
+INFO 2025-05-12 21:12:41,065 basehttp 11464 7104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:12:41,409 basehttp 11464 9688 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-12 21:13:06,819 basehttp 11464 6400 "POST /admin/distributors/userprofile/add/ HTTP/1.1" 302 0
+INFO 2025-05-12 21:13:09,195 basehttp 11464 6400 "GET /admin/distributors/userprofile/ HTTP/1.1" 200 10846
+INFO 2025-05-12 21:13:09,507 basehttp 11464 10224 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:13:09,885 basehttp 11464 6400 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-05-12 21:13:10,588 basehttp 11464 6400 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-12 21:13:10,701 basehttp 11464 10224 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-05-12 21:13:11,068 basehttp 11464 1816 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-05-12 21:13:24,668 basehttp 11464 10180 "GET /admin/distributors/userprofile/ HTTP/1.1" 200 10622
+INFO 2025-05-12 21:13:24,902 basehttp 11464 10180 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:13:32,019 basehttp 11464 6280 "GET /admin/distributors/userprofile/?role__exact=manager HTTP/1.1" 200 10861
+INFO 2025-05-12 21:13:32,363 basehttp 11464 6280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:13:36,214 basehttp 11464 14272 "GET /admin/distributors/userprofile/? HTTP/1.1" 200 10622
+INFO 2025-05-12 21:13:36,322 basehttp 11464 14272 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-12 21:13:47,042 basehttp 11464 14008 "GET /admin/distributors/userprofile/1/change/ HTTP/1.1" 200 11352
+INFO 2025-05-12 21:13:47,189 basehttp 11464 14008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-05-12 21:15:07,581 log 11464 3776 Not Found: /
+WARNING 2025-05-12 21:15:07,590 basehttp 11464 3776 "GET / HTTP/1.1" 404 2679
+WARNING 2025-05-12 21:15:14,682 log 11464 5656 Not Found: /api/ /
+WARNING 2025-05-12 21:15:14,685 basehttp 11464 5656 "GET /api/%20/ HTTP/1.1" 404 4526
+WARNING 2025-05-12 21:15:27,456 log 11464 620 Method Not Allowed: /api/register/
+WARNING 2025-05-12 21:15:27,467 basehttp 11464 620 "GET /api/register/ HTTP/1.1" 405 5765
+INFO 2025-05-12 21:15:27,949 basehttp 11464 8756 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:27,950 basehttp 11464 13548 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:27,970 basehttp 11464 13548 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:27,974 basehttp 11464 8756 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,000 basehttp 11464 12768 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,024 basehttp 11464 13548 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,073 basehttp 11464 6260 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,079 basehttp 11464 8756 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,123 basehttp 11464 8768 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,139 basehttp 11464 12768 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,191 basehttp 11464 11632 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-05-12 21:15:28,339 basehttp 11464 11632 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2025-05-12 21:15:40,273 log 11464 1056 Bad Request: /api/register/
+WARNING 2025-05-12 21:15:40,306 basehttp 11464 1056 "POST /api/register/ HTTP/1.1" 400 5669
+WARNING 2025-05-12 21:16:24,726 log 11464 3312 Bad Request: /api/register/
+WARNING 2025-05-12 21:16:24,728 basehttp 11464 3312 "POST /api/register/ HTTP/1.1" 400 5608
+INFO 2025-05-12 21:17:11,413 basehttp 11464 8964 "POST /api/register/ HTTP/1.1" 201 5574
+WARNING 2025-05-12 21:17:22,980 log 11464 11940 Not Found: /api/
+WARNING 2025-05-12 21:17:22,990 basehttp 11464 11940 "GET /api/ HTTP/1.1" 404 4518
+WARNING 2025-05-12 21:17:30,037 log 11464 8108 Unauthorized: /api/distributors/
+WARNING 2025-05-12 21:17:30,041 basehttp 11464 8108 "GET /api/distributors/ HTTP/1.1" 401 5337
+WARNING 2025-05-12 21:17:31,569 log 11464 8108 Unauthorized: /api/distributors/
+WARNING 2025-05-12 21:17:31,580 basehttp 11464 8108 "GET /api/distributors/ HTTP/1.1" 401 5337
+WARNING 2025-05-12 21:17:41,013 log 11464 10416 Not Found: /api/
+WARNING 2025-05-12 21:17:41,041 basehttp 11464 10416 "GET /api/ HTTP/1.1" 404 4518
+WARNING 2025-05-12 21:32:12,686 log 11464 8680 Unauthorized: /api/distributors/
+WARNING 2025-05-12 21:32:12,733 basehttp 11464 8680 "GET /api/distributors/ HTTP/1.1" 401 5337
